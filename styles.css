@@ -11,7 +11,7 @@
 
 body {
   background: #bbc7df;
-  background-image: url('/project1/img/SQI.jpg');
+  background-image: url('./img/SQI.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -61,7 +61,7 @@ body {
 }
 
 .wrapper .sidebar__inner .profile_info .profile_img {
-  width: 125px;
+  width: 115px;
   margin: 0 auto 15px;
 }
 
@@ -86,7 +86,7 @@ body {
 .wrapper .sidebar__inner .profile_info .profile_data .btn {
   padding: 10px;
   border: 1px solid #1fafec;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   color: #1fafec;
   cursor: pointer;
 }
