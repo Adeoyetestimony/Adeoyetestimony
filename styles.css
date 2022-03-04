@@ -10,11 +10,12 @@
 }
 
 body {
-  background: #bbc7df;
+  background: #000;
   background-image: url('./img/SQI.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  align-items: center;
 }
 .wrapper {
   display: flex;
@@ -44,7 +45,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #2a58ae;
+  background: #000;
   z-index: 999;
   transition: all 0.3s ease;
 }
@@ -79,21 +80,21 @@ body {
 
 .wrapper .sidebar__inner .profile_info .profile_data .role {
   font-weight: 300;
-  color: #88a3d0;
+  color: #fff;
   margin-bottom: 15px;
 }
 
 .wrapper .sidebar__inner .profile_info .profile_data .btn {
   padding: 10px;
-  border: 1px solid #1fafec;
+  border: 1px solid #fff;
   /* border-radius: 25px; */
-  color: #1fafec;
+  color: #fff;
   cursor: pointer;
 }
 
 .wrapper .sidebar__inner .profile_info .profile_data .btn:hover {
-  background: #1fafec;
-  color: #fff;
+  background: #daa520;
+  color: #000;
 }
 
 .wrapper .sidebar__inner .siderbar_menu li a {
@@ -102,7 +103,7 @@ body {
   height: 90px;
   position: relative;
   margin-bottom: 1px;
-  color: #88a3d0;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
 }
@@ -119,14 +120,14 @@ body {
   left: 0;
   width: 3px;
   height: 100%;
-  background: #1fafec;
+  background: #fff;
   display: none;
 }
 
 .wrapper .sidebar__inner .siderbar_menu li a:hover,
 .wrapper .sidebar__inner .siderbar_menu li a.active {
-  background: #1d4c9e;
-  color: #fff;
+  background: #daa520;
+  color: #000;
 }
 
 .wrapper .sidebar__inner .siderbar_menu li a:hover:before,
@@ -156,7 +157,7 @@ body {
 }
 
 .wrapper .main_container .top_navbar .hamburger .fas {
-  color: #88a3d0;
+  color: #000;
   font-size: 25px;
   cursor: pointer;
   position: absolute;
@@ -174,7 +175,7 @@ body {
   margin: 0 15px;
   padding: 0 15px;
   position: relative;
-  color: #1d4c9e;
+  color: #daa520;
   font-weight: 400;
   text-align: center;
 }
@@ -186,13 +187,13 @@ body {
   left: 0;
   width: 100%;
   height: 3px;
-  background: #1fafec;
+  background: #000;
   display: none;
 }
 
 .wrapper .main_container .top_navbar .menu li a.active,
 .wrapper .main_container .top_navbar .menu li a:hover {
-  color: #1fafec;
+  color: #000;
 }
 
 .wrapper .main_container .top_navbar .menu li a:hover:before,
@@ -211,7 +212,7 @@ body {
 .wrapper .main_container .top_navbar .right_bar .fas {
   font-size: 25px;
   cursor: pointer;
-  color: #88a3d0;
+  color: #000;
 }
 
 .wrapper .main_container .top_navbar .right_bar li:hover,
@@ -227,10 +228,11 @@ body {
 .wrapper .main_container .container .item {
   background: #fff;
   padding: 20px;
-  border-bottom: 1px solid #d9e2e7;
+  border-right: 2px solid #daa520;
   font-size: 14px;
   line-height: 22px;
   margin-bottom: 15px;
+  color: black;
 }
 
 .wrapper .sidebar__inner .close{
